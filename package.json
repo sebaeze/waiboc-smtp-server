@@ -1,0 +1,24 @@
+{
+  "name": "waiboc-smtp-server",
+  "version": "1.0.0",
+  "description": "smtp server for waiboc",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test":  "node ./test/testEmail.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebaeze/waiboc-smtp-server.git"
+  },
+  "author": "sebaeze@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebaeze/waiboc-smtp-server/issues"
+  },
+  "homepage": "https://github.com/sebaeze/waiboc-smtp-server#readme",
+  "dependencies": {
+    "nodemailer": "^6.4.6",
+    "smtp-server": "^3.6.0"
+  }
+}
