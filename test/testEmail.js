@@ -8,7 +8,7 @@ const transporter    = nodemailer.createTransport({
     host: 'localhost',
     // port: 587,
     // port: 25,
-    port: 25 ,
+    port: 4025 ,
     //secure: false ,
     auth: {
         user: "info@waiboc.com",
